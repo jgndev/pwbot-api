@@ -1,6 +1,6 @@
 ![](images/logo.svg)
 
-## POST a request, 🪄 get a shiny new password 🪄!
+## POST a request, 🪄 get a shiny new password 🪄
 
 A REST API written in [Node.js](https://nodejs.org/en) wth [TypeScript](https://www.typescriptlang.org/) deployed to [Vercel Serverless Functions](https://vercel.com/docs/concepts/functions/serverless-functions)
 
