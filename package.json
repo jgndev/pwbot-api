@@ -1,0 +1,16 @@
+{
+  "name": "pwbot-api",
+  "version": "1.0.0",
+  "description": "REST API for generating passwords",
+  "main": "api/app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeremy Novak",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^18.16.3",
+    "@vercel/node": "^2.14.0",
+    "typescript": "^5.0.4"
+  }
+}
