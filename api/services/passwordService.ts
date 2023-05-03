@@ -8,11 +8,11 @@ const generatePassword = (options: PasswordRequest): PasswordResponse => {
     const specialCharacters = '!@#$%^&*-_=+<>?;:[]{}(),./|';
 
     // Default the options that weren't specified by the caller
-    options.length = options.length === 0 || null || undefined ? 12 : options.length;
-    options.useLowercase = options.useLowercase === null || undefined ? true : options.useLowercase;
-    options.useUppercase = options.useUppercase === null || undefined ? true : options.useUppercase;
-    options.useSpecial = options.useSpecial === null || undefined ? true : options.useSpecial;
-    options.useNumbers = options.useNumbers === null || undefined? true : options.useNumbers;
+    // options.length = options.length === 0 || null || undefined ? 12 : options.length;
+    // options.useLowercase = options.useLowercase === null || undefined ? true : options.useLowercase;
+    // options.useUppercase = options.useUppercase === null || undefined ? true : options.useUppercase;
+    // options.useSpecial = options.useSpecial === null || undefined ? true : options.useSpecial;
+    // options.useNumbers = options.useNumbers === null || undefined? true : options.useNumbers;
 
     let characters = '';
 
