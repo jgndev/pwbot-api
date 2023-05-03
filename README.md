@@ -11,7 +11,9 @@ Request:
 
 Send a `POST` request to the `https://pwbot-api.jgnovak.com/api/passwords` endpoint with a JSON body with the following options.
 
-```
+Example:
+
+```json
 {
     "length": 12,
     "useNumbers": true,
@@ -20,6 +22,16 @@ Send a `POST` request to the `https://pwbot-api.jgnovak.com/api/passwords` endpo
     "useSpecial": true,
 }
 ```
+
+Example Response:
+
+```json
+{
+    "password": "8p,d;/n9HDS^"
+}
+```
+
+### Options
 
 **length**: A number between 6 and 64. Password length is clamped to at least 6 and no more than 64 characters.
 
