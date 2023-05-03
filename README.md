@@ -31,13 +31,23 @@ Example Response:
 
 ### Options
 
-**length**: A number between 6 and 64. Password length is clamped to at least 6 and no more than 64 characters.
+`length`: 
 
-**useNumbers**: Include the numbers `0123456789` as possible characters in the password.
+A number between 6 and 64. Password length is clamped to at least 6 and no more than 64 characters.
 
-**useUppercase**: Include uppercase letters of the [ASCII alphabet](https://en.wikipedia.org/wiki/ASCII) as possible characters in the password.
+`useNumber`: 
 
-**useLowercase**: Include lowercase letters of the [ASCII alphabet](https://en.wikipedia.org/wiki/ASCII) as possible characters in the password.
+Include the numbers `0123456789` as possible characters in the password.
 
-**useSpecial**: Include special characters `!@#$%^&*-_=+<>?;:[]{}(),./|` as the possible characters for the password.
+`useUppercase`: 
+
+Include uppercase letters of the [ASCII alphabet](https://en.wikipedia.org/wiki/ASCII) as possible characters in the password.
+
+`useLowercase`: 
+
+Include lowercase letters of the [ASCII alphabet](https://en.wikipedia.org/wiki/ASCII) as possible characters in the password.
+
+`useSpecial`: 
+
+Include special characters `!@#$%^&*-_=+<>?;:[]{}(),./|` as the possible characters for the password.
 
