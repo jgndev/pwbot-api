@@ -7,11 +7,9 @@ A REST API written in [Node.js](https://nodejs.org/en) wth [TypeScript](https://
 
 ### 🌐 Password Generation Endpoint
 
-Request:
-
 Send a `POST` request to the `https://pwbot-api.jgnovak.com/api/passwords` endpoint with a JSON body with the following options.
 
-Example:
+Example Request:
 
 ```json
 {
