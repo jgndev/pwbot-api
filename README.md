@@ -49,5 +49,5 @@ Include lowercase letters of the [ASCII alphabet](https://en.wikipedia.org/wiki/
 
 `useSpecial`: 
 
-Include special characters `!@#$%^&*-_=+<>?;:[]{}(),./|` as possible characters for the password.
+Include special characters `!@#$%^&*-_=+<>?;:[]{}(),./|` as possible characters in the password.
 
